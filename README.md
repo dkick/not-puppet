@@ -1,4 +1,5 @@
-A long time ago, in The 90s far, far away ...
+A long time ago, in a [Dot.com
+bubble](https://en.wikipedia.org/wiki/Dot-com_bubble) far, far away...
 
 I was still working on [Tandem
 NonStop](https://en.wikipedia.org/wiki/NonStop_(server_computers))
