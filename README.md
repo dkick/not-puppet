@@ -11,6 +11,7 @@ experience looking for
 getting tired of configuring test environments and they most certainly
 did not have [Puppet](https://en.wikipedia.org/wiki/Puppet_(software))
 (not even A Thing In The World until 2005). So I wrote my
-own. Kinda. Not really. I still did a lot of work interactively;
-i.e. not everyting found its way into an ASDF specification. But it
-was fun :)
+own. Kinda. Not really. I was also looking for an excuse to play with Prolog.
+So I did it via Lisp ;-) because why not make it weird?
+I still did a lot of work interactively; i.e. not everyting found its way
+into an ASDF specification. But it was fun :)
