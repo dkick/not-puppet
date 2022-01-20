@@ -3,7 +3,7 @@ bubble](https://en.wikipedia.org/wiki/Dot-com_bubble) far, far away...
 
 I was still working with [Tandem
 NonStop](https://en.wikipedia.org/wiki/NonStop_(server_computers))
-systems. The filesystem only supported {volume, subvolume, file}. They
+systems. Tandem did have their own version of a [*nix](https://en.wikipedia.org/wiki/Unix-like), IIRC, but we weren't using it. The filesystem only supported {volume, subvolume, file}. They
 did not have make. They did not have... much of anything; at least not
 to someone with [*nix](https://en.wikipedia.org/wiki/Unix-like)
 experience looking for
