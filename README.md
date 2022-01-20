@@ -10,7 +10,7 @@ experience looking for
 [*nix](https://en.wikipedia.org/wiki/Unix-like)-ish things. We had a complicated build process, with a cross compile step, which then requried a second pass on the Tandem, and then more steps after that for install, etc. I was
 getting tired of configuring test environments and they most certainly
 did not have something like a [Puppet](https://en.wikipedia.org/wiki/Puppet_(software))
-(not even A Thing In The World until 2005). I wanted something to kick off the cross compile and then exec the remote steps afterwards, but in a make-like, declarative fashion. So I wrote my
+(not even A Thing In The World until 2005). I wanted something to kick off the cross compile, and then exec the remote steps afterwards, but in a make-like, declarative fashion. So I wrote my
 own. Kinda. Not really. No where near anything as general purpose nor even remotely the same scale ... but it allowed for a declartive statement of the desired state of the test environment and the logic to get from "here to there", but this was all only reallu useful for just to me. I was mostly looking for an excuse to play with Prolog and it seemed that Prolog would allow for a general purpose programmable, declarative specification.
 So I did it via Lisp, ;-) because why not make it weird? Allegro CL provided [Allegro Prolog](https://franz.com/support/documentation/current/doc/prolog.html) which was a way for me to get to use "two birds with one stone," as it were.
 It was always a bit half baked; I still did a lot of work interactively in a [SLIME REPL](https://slime.common-lisp.dev); not everything found its way
