@@ -7,7 +7,7 @@ systems. Tandem did have their own version of a [*nix](https://en.wikipedia.org/
 did not have make. They did not have... much of anything; at least not
 to someone with [*nix](https://en.wikipedia.org/wiki/Unix-like)
 experience looking for
-[*nix](https://en.wikipedia.org/wiki/Unix-like)-ish things. I was
+[*nix](https://en.wikipedia.org/wiki/Unix-like)-ish things. We had a complicated build process, with a cross compile step, which then requried a second pass on the Tandem, and then more steps after that for install, etc. I was
 getting tired of configuring test environments and they most certainly
 did not have [Puppet](https://en.wikipedia.org/wiki/Puppet_(software))
 (not even A Thing In The World until 2005). So I wrote my
