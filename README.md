@@ -11,7 +11,7 @@ experience looking for
 getting tired of configuring test environments and they most certainly
 did not have [Puppet](https://en.wikipedia.org/wiki/Puppet_(software))
 (not even A Thing In The World until 2005). So I wrote my
-own. Kinda. Not really. No where near anything general purpose on or the same scale but it allowed for a declartive statement of the desired state of the test environment and the logic to get from "here to there". I was mostly for an excuse to play with Prolog.
+own. Kinda. Not really. No where near anything as general purpose nor even remotely the same scale ... but it allowed for a declartive statement of the desired state of the test environment and the logic to get from "here to there", but a usefully mostly just to me version. I was mostly for an excuse to play with Prolog.
 So I did it via Lisp ;-) because why not make it weird?
 I still did a lot of work interactively; i.e. not everything found its way
 into an ASDF specification. But it was fun :)
