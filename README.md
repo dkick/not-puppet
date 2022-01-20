@@ -12,6 +12,6 @@ getting tired of configuring test environments and they most certainly
 did not have [Puppet](https://en.wikipedia.org/wiki/Puppet_(software))
 (not even A Thing In The World until 2005). I wanted something to kick off the cross compile and then exec the remote steps afterwards, but in a make-like fashion. So I wrote my
 own. Kinda. Not really. No where near anything as general purpose nor even remotely the same scale ... but it allowed for a declartive statement of the desired state of the test environment and the logic to get from "here to there", but this was all only reallu useful for just to me. I was mostly looking for an excuse to play with Prolog and it seemed that Prolog would allow for a general purpose programmable, declarative specification.
-So I did it via Lisp ;-) because why not make it weird?
-I still did a lot of work interactively; i.e. not everything found its way
-into an ASDF specification. Anyway, it served the biggest goal for me: I learnt a little bit about Prolog, got to use some Lisp, too, and, most importantly, it was fun :)
+So I did it via Lisp, ;-) because why not make it weird? Allegro CL provided [Allegro Prolog](https://franz.com/support/documentation/current/doc/prolog.html) which was a way for me to get to use "two birds with one stone," as it were.
+It was always a bit half baked; I still did a lot of work interactively in a [SLIME REPL](https://slime.common-lisp.dev); not everything found its way
+into an ASDF specification, so I would load a few things "by hand"; etc. Anyway, it served the biggest goal for me: I learnt a little bit about Prolog, got to use Common Lisp, too, and, most importantly, it was fun :)
